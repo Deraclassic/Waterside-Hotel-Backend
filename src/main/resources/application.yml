@@ -3,8 +3,8 @@ server:
 
 spring:
   datasource:
-    username: Deraclassic
-    password: 08033468393dad
+    username: ${USERNAME}
+    password: ${PASSWORD}
     url: jdbc:mysql://localhost:3306/waterside_hotel_db
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
